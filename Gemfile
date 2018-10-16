@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
+  gem 'coveralls', require: false
   gem 'factory_bot_rails'
   gem 'pry-byebug'
   gem 'pry-rails'
