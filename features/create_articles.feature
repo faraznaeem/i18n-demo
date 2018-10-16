@@ -1,8 +1,12 @@
 Feature: Create and display articles
-
     As a user
     In order to write my toughts
     I would like to create and read articles on the landing page.
+
+Background:
+    Given the following article exist
+    | title                       | content                                                                         |
+    | Latest news from Washington | During my latest trip to Washington I have discovered some disturbing patterns  |
 
 Scenario: User can read articles on the landing page
     Given I am on the landing page
