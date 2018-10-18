@@ -11,3 +11,11 @@ Given("the following article exist") do |table|
         create(:article, article)
     end
 end
+
+When("I click on {string}") do |button_name|
+    click_link_or_button button_name
+end
+
+Then("I fill in {string} with {string}") do |field, value|
+    pending
+end
